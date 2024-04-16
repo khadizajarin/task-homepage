@@ -24,18 +24,18 @@ const Contacts = () => {
             <div className="lg:flex gap-44 ">
                 {/* left part */}
                 <div className="lg:pb-20 lg:pt-16">
-                    <h2 className="lg:text-left text-center tracking-wider font-extrabold text-5xl text-[#333535]"><span className="text-[#048F8F] leading-snug">Easy</span><br /> Ahead</h2>
-                    <p className="lg:text-left text-center text-lg tracking-wide leading-8 text-[#6D6D6D] mt-8">We take the work out of connecting with <br />others so you can accomplish more.</p>
+                    <h2 className="lg:text-left text-center tracking-wider font-extrabold text-5xl text-[#333535]" style={{"font-size": 44}}><span className="text-[#048F8F] leading-snug">Easy</span><br /> Ahead</h2>
+                    <p className="lg:text-left text-center text-base tracking-wide leading-6 text-[#6D6D6D] mt-8">We take the work out of connecting with <br />others so you can accomplish more.</p>
 
-                    <select className="select border-[#333535]  w-full text-[#048F8F] font-semibold text-base mt-10">
+                    <select className="select border-[#333535] bg-[#FFFFFF] w-full text-[#048F8F] font-semibold text-sm mt-10">
                         <option className="">English</option>
                         <option>English(UK)</option>
                         <option>English(Indian)</option>
                     </select>
 
                     <div className="flex lg:justify-start justify-center mt-8 gap-2">
-                            <img className="w-40" src={img1} alt="" />
-                            <img className="w-40" src={img2} alt="" />
+                            <img className="w-36" src={img1} alt="" />
+                            <img className="w-36" src={img2} alt="" />
                     </div>
 
                     <div className="text-[#048F8F] text-xl flex lg:justify-start justify-center gap-6 mt-8">
@@ -52,10 +52,10 @@ const Contacts = () => {
                 <div className="text-center grid lg:grid-cols-3 grid-cols-2 gap-8 lg:pb-16 lg:pt-20">
                     {/* list 1 */}
                     <div className="leading-8">
-                    <h5 className="text-[#333535] font-bold text-2xl relative">About
+                    <h5 className="text-[#333535] font-bold text-2xl relative mb-6">About
                         {underlined}
                     </h5>
-                        <ul className="text-[#6D6D6D] mt-5">
+                        <ul className="text-[#6D6D6D] text-base leading-7 mt-5">
                             <li>About Calendly</li>
                             <li>Contact Sales</li>
                             <li>Newsroom</li>
@@ -65,10 +65,10 @@ const Contacts = () => {
                     </div>
                     {/* list 2 */}
                     <div className="leading-8">
-                        <h5 className="text-[#333535] font-bold text-2xl relative">Solutions
+                        <h5 className="text-[#333535] font-bold text-2xl relative mb-6">Solutions
                             {underlined}
                         </h5>
-                        <ul className="text-[#6D6D6D] mt-5">
+                        <ul className="text-[#6D6D6D] text-base leading-7 mt-5">
                             <li>Customer Success</li>
                             <li>Sales</li>
                             <li>Recruiting</li>
@@ -78,10 +78,10 @@ const Contacts = () => {
                     </div>
                     {/* list 3 */}
                     <div className="leading-8">
-                        <h5 className="text-[#333535] font-bold text-2xl relative">Popular features
+                        <h5 className="text-[#333535] font-bold text-2xl relative mb-6">Popular features
                             {underlined}
                         </h5>
-                        <ul className="text-[#6D6D6D] mt-5">
+                        <ul className="text-[#6D6D6D] text-base leading-7 mt-5">
                             <li>Embed Calendly</li>
                             <li>Avalability</li>
                             <li>Sending Notification</li>
@@ -90,10 +90,10 @@ const Contacts = () => {
                     </div>
                     {/* list 4 */}
                     <div className="leading-8">
-                        <h5 className="text-[#333535] font-bold text-2xl relative">Support
+                        <h5 className="text-[#333535] font-bold text-2xl relative mb-6">Support
                             {underlined}
                         </h5>
-                        <ul className="text-[#6D6D6D] mt-5">
+                        <ul className="text-[#6D6D6D] text-base leading-7 mt-5">
                             <li>Help Center</li>
                             <li>Video Tutorials</li>
                             <li>Cookie Settings</li>
@@ -101,20 +101,20 @@ const Contacts = () => {
                     </div>
                     {/* list 5 */}
                     <div className="leading-8">
-                    <h5 className="text-[#333535] font-bold text-2xl relative">Add-Ons
+                    <h5 className="text-[#333535] font-bold text-2xl relative mb-6">Add-Ons
                         {underlined}
                     </h5>
-                        <ul className="text-[#6D6D6D] mt-5">
+                        <ul className="text-[#6D6D6D] text-base leading-7 mt-5">
                             <li>Download for Chrome</li>
                             <li>Download for Firefox</li>
                         </ul>
                     </div>
                     {/* list 6 */}
                     <div className="leading-8">
-                        <h5 className="text-[#333535] font-bold text-2xl relative">Developers
+                        <h5 className="text-[#333535] font-bold text-2xl relative mb-6">Developers
                             {underlined}
                         </h5>
-                        <ul className="text-[#6D6D6D] mt-5">
+                        <ul className="text-[#6D6D6D] text-base leading-7 mt-5">
                             <li>Developer Tools</li>
                         </ul>
                     </div>

@@ -9,10 +9,10 @@ import { FaRegGrinStars } from "react-icons/fa";
 
 const Cards = () => {
     return (
-        <div className="relative lg:pb-24">
+        <div className="relative lg:pb-20 bg-[#FFFFFF]">
             <div className="">
-                <h4 className="font-bold text-[#048F8F] lg:mb-2 mb-2 lg:text-2xl text-lg text-center pt-16">SOLUTIONS</h4>
-                <h1 className="pb-20 text-5xl text-[#333535]  text-center lg:pt-8 " style={{fontWeight:700}}>Calendly Can Solve Your Specific Pain Points</h1>
+                <h4 className="font-bold text-[#048F8F] lg:text-xl text-lg text-center pt-16">SOLUTIONS</h4>
+                <h1 className="pb-14 text-4xl text-[#333535] text-center lg:pt-6 " style={{fontWeight:700}}>Calendly Can Solve Your Specific Pain Points</h1>
             </div>
 
             <div className="hero-overlay bg-[#048F8F] w-64 lg:h-2/3 h-full absolute right-0 lg:top-48 top-64" style={{opacity:0.1}}></div>
@@ -21,7 +21,7 @@ const Cards = () => {
                 <div className="grid lg:grid-cols-3 grid-cols-1 gap-10 ">
                     {/* the 6 cards */}
                     {/* card 1 */}
-                    <div className="card w-80 bg-base-100 shadow-md shadow-[#333535] mx-5 lg:mb-6">
+                    <div className="card w-80 bg-[#FFFFFF] shadow-md shadow-[#333535] mx-5 lg:mb-6">
                         <div className="card-body ">
                             <TbTargetArrow className="text-[#048F8F] text-3xl mb-5 font-semibold" />
                             <h2 className="card-title text-[#048F8F] text-2xl font-bold mb-4">Sales</h2>
@@ -30,7 +30,7 @@ const Cards = () => {
                         </div>
                     </div>
                     {/* card 2 */}
-                    <div className="card w-80 bg-base-100 shadow-md shadow-[#333535] mx-5 lg:mb-6">
+                    <div className="card w-80 bg-[#FFFFFF] shadow-md shadow-[#333535] mx-5 lg:mb-6">
                         <div className="card-body">
                             <RiUserSearchLine className="text-[#048F8F] text-3xl font-semibold mb-5" />
                             <h2 className="card-title text-[#048F8F] text-2xl font-bold mb-4">Recruiting</h2>
@@ -39,7 +39,7 @@ const Cards = () => {
                         </div>
                     </div>
                     {/* card 3 */}
-                    <div className="card w-80 bg-base-100 shadow-md shadow-[#333535] mx-5 lg:mb-6">
+                    <div className="card w-80 bg-[#FFFFFF] shadow-md shadow-[#333535] mx-5 lg:mb-6">
                         <div className="card-body">
                             <GiTeacher className="text-[#048F8F] text-3xl mb-5 font-semibold" />
                             <h2 className="card-title text-[#048F8F] text-2xl font-bold mb-4">Education</h2>
@@ -48,7 +48,7 @@ const Cards = () => {
                         </div>
                     </div>
                     {/* card 4 */}
-                    <div className="card w-80 bg-base-100 shadow-md shadow-[#333535] mx-5 ">
+                    <div className="card w-80 bg-[#FFFFFF] shadow-md shadow-[#333535] mx-5 ">
                         <div className="card-body">
                             <IoBarChartOutline className="text-[#048F8F] text-3xl mb-5 font-semibold" />
                             <h2 className="card-title text-[#048F8F] text-2xl font-bold mb-4">Revenue Operations</h2>
@@ -57,7 +57,7 @@ const Cards = () => {
                         </div>
                     </div>
                     {/* card 5 */}
-                    <div className="card w-80 bg-base-100 shadow-md shadow-[#333535] mx-5 ">
+                    <div className="card w-80 bg-[#FFFFFF] shadow-md shadow-[#333535] mx-5 ">
                         <div className="card-body">
                             <RiFlashlightLine className="text-[#048F8F] text-3xl mb-5 font-semibold" />
                             <h2 className="card-title text-[#048F8F] text-2xl font-bold mb-5">Marketing</h2>
@@ -66,7 +66,7 @@ const Cards = () => {
                         </div>
                     </div>
                     {/* card 6 */}
-                    <div className="card w-80 bg-base-100 shadow-md shadow-[#333535] mx-5 ">
+                    <div className="card w-80 bg-[#FFFFFF] shadow-md shadow-[#333535] mx-5 ">
                         <div className="card-body">
                             <FaRegGrinStars className="text-[#048F8F] text-3xl mb-5 font-semibold" />
                             <h2 className="card-title text-[#048F8F] text-2xl font-bold mb-4">Customer Success</h2>

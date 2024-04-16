@@ -2,7 +2,7 @@
 
 const Banner = () => {
     return (
-        <div className="hero bg-white flex justify-center relative" style ={{height: '90vh'}}  >
+        <div className="hero bg-[#FFFFFF] flex justify-center relative" style ={{height: '90vh'}}  >
             <div className="hero-overlay bg-[#048F8F] w-1/2 absolute " style={{opacity:0.05}}></div>
             <div className="hero-content text-center lg:py-28">
                 <div className="">
