@@ -11,13 +11,13 @@ const Cards = () => {
     return (
         <div className="relative lg:pb-20 bg-[#FFFFFF]">
             <div className="">
-                <h4 className="font-bold text-[#048F8F] lg:text-xl text-lg text-center pt-16">SOLUTIONS</h4>
-                <h1 className="pb-14 text-4xl text-[#333535] text-center lg:pt-6 " style={{fontWeight:700}}>Calendly Can Solve Your Specific Pain Points</h1>
+                <h4 className="font-bold text-[#048F8F] lg:text-xl text-lg text-center lg:pt-16 pt-14">SOLUTIONS</h4>
+                <h1 className="lg:pb-14 pb-8 lg:text-4xl text-3xl text-[#333535] text-center lg:pt-6 pt-4 leading-snug px-6" style={{fontWeight:700}}>Calendly Can Solve Your Specific Pain Points</h1>
             </div>
 
             <div className="hero-overlay bg-[#048F8F] w-64 lg:h-2/3 h-full absolute right-0 lg:top-48 top-64" style={{opacity:0.1}}></div>
 
-            <div className="flex justify-center lg:mx-20  mx-0">
+            <div className="flex justify-center lg:mx-20 pb-12 lg:pb-0">
                 <div className="grid lg:grid-cols-3 grid-cols-1 gap-10 ">
                     {/* the 6 cards */}
                     {/* card 1 */}

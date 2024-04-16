@@ -69,7 +69,7 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-end lg:flex lg:gap-4 gap-2 font-bold">
                     <p className="lg:text-lg text-base">Login</p>
-                    <a className="bg-white lg:h-10 flex justify-center items-center rounded-full lg:px-6 px-2 lg:py-4 py-2 text-[#048F8F]">Get Started</a>
+                    <a className="bg-white lg:h-10 flex justify-center items-center rounded-full lg:px-6 px-2 lg:py-4 py-2 text-[#048F8F] lg:text-sm text-xs">Get Started</a>
                 </div>
             </div>
         </div>

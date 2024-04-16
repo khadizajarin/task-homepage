@@ -8,32 +8,36 @@ const Contacts = () => {
 
     const underlined = <>
             <span className="absolute bottom-1 left-0 w-full h-2">
-                    <span className="inline-block w-6 border-b-2 border-[#048F8F]"></span>
+                    <span className="inline-block lg:w-6 w-4 border-b-2 border-[#048F8F]"></span>
                     <span className="inline-block w-1 border-b-2 border-transparent"></span>
-                    <span className="inline-block w-10 border-b-2 border-[#048F8F]"></span>
+                    <span className="inline-block lg:w-10 w-6 border-b-2 border-[#048F8F]"></span>
                     <span className="inline-block w-1 border-b-2 border-transparent"></span>
-                    <span className="inline-block w-10 border-b-2 border-[#048F8F]"></span>
+                    <span className="inline-block lg:w-10 w-6 border-b-2 border-[#048F8F]"></span>
                     <span className="inline-block w-1 border-b-2 border-transparent"></span>
-                    <span className="inline-block w-6 border-b-2 border-[#048F8F]"></span>
+                    <span className="inline-block lg:w-6 w-4 border-b-2 border-[#048F8F]"></span>
             </span>
     </>
     return (
         <div className="hero bg-white flex justify-center items-center relative"  >
             <div className="hero-overlay bg-[#048F8F] w-1/2 absolute" style={{opacity:0.05}}></div>
 
-            <div className="lg:flex gap-44 ">
+            <div className="flex lg:gap-44 flex-col-reverse lg:flex-row">
+               
                 {/* left part */}
-                <div className="lg:pb-20 lg:pt-16">
+                <div className="lg:pb-20 pb-10 lg:pt-16 pt-8">
+                <hr className=" lg:hidden "/>
                     <h2 className="lg:text-left text-center tracking-wider font-extrabold text-5xl text-[#333535]" style={{"font-size": 44}}><span className="text-[#048F8F] leading-snug">Easy</span><br /> Ahead</h2>
                     <p className="lg:text-left text-center text-base tracking-wide leading-6 text-[#6D6D6D] mt-8">We take the work out of connecting with <br />others so you can accomplish more.</p>
 
-                    <select className="select border-[#333535] bg-[#FFFFFF] w-full text-[#048F8F] font-semibold text-sm mt-10">
+                    <div className="px-4 lg:px-0">
+                        <select className="select border-[#333535] bg-[#FFFFFF] w-full text-[#048F8F] font-semibold text-sm mt-10">
                         <option className="">English</option>
                         <option>English(UK)</option>
                         <option>English(Indian)</option>
-                    </select>
+                        </select>
+                    </div>
 
-                    <div className="flex lg:justify-start justify-center mt-8 gap-2">
+                    <div className="flex lg:justify-start justify-center mt-8 lg:gap-2 gap-4" >
                             <img className="w-36" src={img1} alt="" />
                             <img className="w-36" src={img2} alt="" />
                     </div>
@@ -49,26 +53,26 @@ const Contacts = () => {
 
 
                 {/* right part */}
-                <div className="text-center grid lg:grid-cols-3 grid-cols-2 gap-8 lg:pb-16 lg:pt-20">
+                <div className="text-center grid lg:grid-cols-3 grid-cols-2 gap-8 lg:pb-16 lg:pt-20 pt-10 px-4">
                     {/* list 1 */}
-                    <div className="leading-8">
-                    <h5 className="text-[#333535] font-bold text-2xl relative mb-6">About
-                        {underlined}
-                    </h5>
-                        <ul className="text-[#6D6D6D] text-base leading-7 mt-5">
-                            <li>About Calendly</li>
-                            <li>Contact Sales</li>
-                            <li>Newsroom</li>
-                            <li>Careers</li>
-                            <li>Security</li>
-                        </ul>
+                    <div className="leading-8 ">
+                        <h5 className="text-[#333535] font-bold lg:text-2xl text-xl relative mb-6 ">About
+                            {underlined}
+                        </h5>
+                            <ul className="text-[#6D6D6D] lg:text-base text-sm leading-7 mt-5">
+                                <li>About Calendly</li>
+                                <li>Contact Sales</li>
+                                <li>Newsroom</li>
+                                <li>Careers</li>
+                                <li>Security</li>
+                            </ul>
                     </div>
                     {/* list 2 */}
                     <div className="leading-8">
-                        <h5 className="text-[#333535] font-bold text-2xl relative mb-6">Solutions
+                        <h5 className="text-[#333535] font-bold lg:text-2xl text-xl relative mb-6">Solutions
                             {underlined}
                         </h5>
-                        <ul className="text-[#6D6D6D] text-base leading-7 mt-5">
+                        <ul className="text-[#6D6D6D] lg:text-base text-sm leading-7 mt-5">
                             <li>Customer Success</li>
                             <li>Sales</li>
                             <li>Recruiting</li>
@@ -78,10 +82,10 @@ const Contacts = () => {
                     </div>
                     {/* list 3 */}
                     <div className="leading-8">
-                        <h5 className="text-[#333535] font-bold text-2xl relative mb-6">Popular features
+                        <h5 className="text-[#333535] font-bold lg:text-2xl text-xl relative mb-6">Popular features
                             {underlined}
                         </h5>
-                        <ul className="text-[#6D6D6D] text-base leading-7 mt-5">
+                        <ul className="text-[#6D6D6D] lg:text-base text-sm leading-7 mt-5">
                             <li>Embed Calendly</li>
                             <li>Avalability</li>
                             <li>Sending Notification</li>
@@ -90,10 +94,10 @@ const Contacts = () => {
                     </div>
                     {/* list 4 */}
                     <div className="leading-8">
-                        <h5 className="text-[#333535] font-bold text-2xl relative mb-6">Support
+                        <h5 className="text-[#333535] font-bold lg:text-2xl text-xl relative mb-6">Support
                             {underlined}
                         </h5>
-                        <ul className="text-[#6D6D6D] text-base leading-7 mt-5">
+                        <ul className="text-[#6D6D6D] lg:text-base text-sm leading-7 mt-5">
                             <li>Help Center</li>
                             <li>Video Tutorials</li>
                             <li>Cookie Settings</li>
@@ -101,20 +105,20 @@ const Contacts = () => {
                     </div>
                     {/* list 5 */}
                     <div className="leading-8">
-                    <h5 className="text-[#333535] font-bold text-2xl relative mb-6">Add-Ons
+                    <h5 className="text-[#333535] font-bold lg:text-2xl text-xl relative mb-6">Add-Ons
                         {underlined}
                     </h5>
-                        <ul className="text-[#6D6D6D] text-base leading-7 mt-5">
+                        <ul className="text-[#6D6D6D] lg:text-base text-sm leading-7 mt-5">
                             <li>Download for Chrome</li>
                             <li>Download for Firefox</li>
                         </ul>
                     </div>
                     {/* list 6 */}
                     <div className="leading-8">
-                        <h5 className="text-[#333535] font-bold text-2xl relative mb-6">Developers
+                        <h5 className="text-[#333535] font-bold lg:text-2xl text-xl relative mb-6">Developers
                             {underlined}
                         </h5>
-                        <ul className="text-[#6D6D6D] text-base leading-7 mt-5">
+                        <ul className="text-[#6D6D6D] lg:text-base text-sm leading-7 mt-5">
                             <li>Developer Tools</li>
                         </ul>
                     </div>
