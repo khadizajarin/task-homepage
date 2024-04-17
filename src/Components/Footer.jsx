@@ -2,7 +2,7 @@
 
 const Footer = () => {
     return (
-        <footer className="lg:flex justify-between lg:text-lg text-base  items-center text-white lg:px-44 p-4 lg:h-20 bg-[#048F8F] ">
+        <footer className="flex justify-between  items-center lg:text-lg text-xs text-white lg:px-44 p-6 lg:h-20 bg-[#048F8F]">
             <div className="">
                 <p>Copyright Calendly 2022 </p>
             </div> 

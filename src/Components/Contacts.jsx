@@ -25,7 +25,7 @@ const Contacts = () => {
                
                 {/* left part */}
                 <div className="lg:pb-20 pb-10 lg:pt-16 pt-8">
-                <hr className=" lg:hidden "/>
+                <hr className=" lg:hidden bg-[#6D6D6D] mx-14 mb-5" style={{height:2}}/>
                     <h2 className="lg:text-left text-center tracking-wider font-extrabold text-5xl text-[#333535]" style={{"font-size": 44}}><span className="text-[#048F8F] leading-snug">Easy</span><br /> Ahead</h2>
                     <p className="lg:text-left text-center text-base tracking-wide leading-6 text-[#6D6D6D] mt-8">We take the work out of connecting with <br />others so you can accomplish more.</p>
 
